@@ -1,0 +1,12 @@
+A = [1 1; 3 2]
+B = [4 5; 7 5]
+Tambah = A+B;
+Kurang = A-B;
+Bagi = A/B;
+Pangkat = input('Masukkan mau dipangkat berapa:  ');
+PerpangkatanA = A^Pangkat;
+PerpangkatanB = B^Pangkat
+PekalianMat = A*B;
+PerkalianElm = A.*B;
+k = input('Angka Perkalian Skalar:   ');
+PerkalianSkal =  A*k;
